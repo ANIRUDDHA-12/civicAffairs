@@ -1,0 +1,37 @@
+{
+  "site": {
+    "title": "CivicAffairs",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "https://res.cloudinary.com/deqeu0xv1/image/upload/v1727346069/Screenshot_2024-09-26_154946_jqohtd.png",
+    "logo_width": "150",
+    "logo_height": "30",
+    "logo_background-color":"transparent",
+    "logo_text": "Bigspring Light"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Get Started",
+    "link": "/contact"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "Stay informed and engaged as we navigate the political landscape together.",
+    "copyright": "© 2024 Civic Affairs. All rights reserved.Disclaimer: The information provided on this website is for general informational purposes only. Civic Affairs does not endorse any political party or candidate and encourages users to engage responsibly and critically with the content presented."
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "",
+    "meta_description": "A SAAS template for nextjs"
+  }
+}
