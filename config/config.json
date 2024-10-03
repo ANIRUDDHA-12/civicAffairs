@@ -26,7 +26,8 @@
     "contact_form_action": "",
     "tag_manager_id": "",
     "footer_content": "Stay informed and engaged as we navigate the political landscape together.",
-    "copyright": "© 2024 Civic Affairs. All rights reserved.Disclaimer: The information provided on this website is for general informational purposes only. Civic Affairs does not endorse any political party or candidate and encourages users to engage responsibly and critically with the content presented."
+    "copyright": "© 2024 Civic Affairs. All rights reserved.",
+    "disclaimer":"Disclaimer: The information provided on this website is for general informational purposes only."
   },
 
   "metadata": {

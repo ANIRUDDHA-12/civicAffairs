@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
-  const { copyright, footer_content } = config.params;
+  const { copyright, footer_content,disclaimer } = config.params;
   const { footer } = menu;
   return (
     <footer className="section bg-theme-light pb-0">
@@ -45,8 +45,11 @@ const Footer = () => {
           </div>
         </div>
         {/* copyright */}
-        <div className="border-t border-border py-6">
+        <div className="border-t border-border py-0">
           {markdownify(copyright, "p", "text-sm text-center")}
+        </div>
+        <div className="border-t border-border py-3">
+          {markdownify(disclaimer, "p", "text-sm text-center")}
         </div>
       </div>
     </footer>
