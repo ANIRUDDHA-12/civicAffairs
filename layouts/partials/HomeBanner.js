@@ -1,5 +1,4 @@
 import { markdownify } from "@lib/utils/textConverter";
-import Image from "next/image";
 import Link from "next/link";
 
 const HomeBanner = ({ banner }) => {
@@ -8,8 +7,8 @@ const HomeBanner = ({ banner }) => {
       <div className="container">
         <div className="row text-center">
           <div className="mx-auto lg:col-10">
-            <h1 className="font-primary font-bold">{banner.title}</h1>
-            <p className="mt-4">{markdownify(banner.content)}</p>
+            <h1 className="font-primary text-2xl font-bold">{banner.title}</h1>
+            <p className="mt-4 text-xl">{markdownify(banner.content)}</p>
             {banner.button.enable && (
               <Link
                 className="btn btn-primary mt-4"
@@ -19,14 +18,7 @@ const HomeBanner = ({ banner }) => {
                 {banner.button.label}
               </Link>
             )}
-            <Image
-              className="mx-auto mt-12"
-              src={banner.image}
-              width={750}
-              height={390}
-              alt="banner image"
-              priority
-            />
+            <img src={banner.image} className="w-[90vw] mt-10" />
           </div>
         </div>
       </div>

@@ -11,29 +11,25 @@ function Pricing({ data,services }) {
     <>
       <section className="section pb-0">
         <div className="container">
-          <h1 className="text-center font-normal">{title}</h1>
-          <div className=" flex gap-2 max-w-[100vw]  -mt-20 justify-center md:mt-0">
+          <h1 className="text-center text-3xl font-bold">{title}</h1>
+          <div className="grid grid-cols-3 gap-8 max-w-[100vw] -mt-20 justify-center md:mt-0">
             {plans.map((plan, index) => (
               <div
-                className={`w-[15vw] 
+                className={`my-10
                 `}
                 key={plan.title + index}
               >
-                <div className="card text-center w-[15vw]">
-                  <h4>{plan.title}</h4>
+                <div className="card text-center">
+                  <h4 className="text-xl font-bold">{plan.title}</h4>
                   <div className="mt-5">
-                    <img className="text-5xl text-dark" src={plan.image}></img>
+                    <img className="w-[200px] h-[200px] m-auto text-5xl rounded-full text-dark border-2 border-red-200" src={plan.image}></img>
                   </div>
-                  <h5 className="mt-2 font-normal text-text">
+                  <h5 className="mt-2 font-semi-bold text-md">
                     {plan.subtitle}
                   </h5>
-                  <ul className="mt-5">
-                    {plan.features.map((feature, index) => (
-                      <li className="mb-[10px] leading-5" key={index}>
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
+                  <p className="text-center my-4 line-clamp-4">
+                    {plan.features.join("")}
+                  </p>
                   <Link
                     className={`btn mt-5 ${
                       plan.recommended ? "btn-primary" : "btn-outline-primary"
@@ -49,6 +45,36 @@ function Pricing({ data,services }) {
           </div>
         </div>
       </section>
+
+      <section className="section flex px-[20%] bg-theme-white w-full h-[50vh] bg-white border-2 border-y-gray-200 ">
+        <section className="w-[60%]">
+          <h2 className="font-bold text-xl">Shiv Sena (UBT)</h2>
+          <p>Formed after 2022 split in Shiv SenaFocuses on Hindutva and regional issues in Maharashtra.A crucial player in the 2024 state elections.</p>
+          <br/>
+          <p>Formed after 2022 split in Shiv SenaFocuses on Hindutva and regional issues in Maharashtra.A crucial player in the 2024 state elections.</p>
+          <a href="#" >Link</a>
+        </section>
+        <section className="w-[40%] ml-[20%]">
+          <img src="https://res.cloudinary.com/deqeu0xv1/image/upload/v1727982342/Screenshot_2024-10-04_003445_fmla9d.png"
+            className="w-[200px] h-[200px]" />
+        </section>
+      </section>
+
+      <section className="section flex px-[20%] bg-theme-white w-full h-[50vh] bg-white border-2 border-y-gray-200 ">
+        <section className="w-[40%]">
+          <img src="https://res.cloudinary.com/deqeu0xv1/image/upload/v1727982342/Screenshot_2024-10-04_003445_fmla9d.png"
+            className="w-[200px] h-[200px]" />
+        </section>
+        <section className="w-[60%]">
+          <h2 className="font-bold text-xl">Shiv Sena (UBT)</h2>
+          <p>Formed after 2022 split in Shiv SenaFocuses on Hindutva and regional issues in Maharashtra.A crucial player in the 2024 state elections.</p>
+          <br/>
+          <p>Formed after 2022 split in Shiv SenaFocuses on Hindutva and regional issues in Maharashtra.A crucial player in the 2024 state elections.</p>
+          <a href="#" >Link</a>
+        </section>
+      </section>
+
+
       <Cta cta={call_to_action} />
     </>
   );

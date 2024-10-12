@@ -20,7 +20,7 @@ const Logo = ({ src }) => {
         <Image
           width= "90"
           height="90"
-          className="rounded-full border-2"
+          className="rounded-full border-2 border-red-300"
           src={src ? src : logo}
           alt={title}
           priority

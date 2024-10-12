@@ -6,7 +6,7 @@ const HomeFeatures = ({ feature }) => {
     <section className="section bg-theme-light">
       <div className="container">
         <div className="text-center">
-          <h2>{markdownify(feature.title)}</h2>
+          <h2 className="text-md md:text-2xl font-bold">{markdownify(feature.title)}</h2>
         </div>
         <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
           {feature.features.map((item, i) => (
@@ -18,8 +18,8 @@ const HomeFeatures = ({ feature }) => {
                 <Image
                   className="mx-auto"
                   src={item.icon}
-                  width={40}
-                  height={50}
+                  width={80}
+                  height={80}
                   alt=""
                 />
               )}

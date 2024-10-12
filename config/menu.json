@@ -6,15 +6,11 @@
     },
     {
       "name": "Major Parties",
-      "url": "/blogs"
-    },
-    {
-      "name": "Major Fights",
       "url": "/pricing"
     },
     {
       "name": "Blogs",
-      "url": "/contact"
+      "url": "/blogs"
     }
   ],
   "footer": [

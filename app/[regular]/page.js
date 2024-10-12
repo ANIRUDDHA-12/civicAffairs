@@ -32,7 +32,9 @@ const RegularPages = async ({ params }) => {
         <Pricing data={regularPageData} />
       ) : layout === "faq" ? (
         <Faq data={regularPageData} />
-      ) : (
+      ) : layout === "blogs" ? (
+        <Contact data={regularPageData} />
+      ): (
         <Default data={regularPageData} />
       )}
     </>

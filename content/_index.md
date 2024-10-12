@@ -76,7 +76,7 @@ services:
 
 # workflow
 workflow: 
-  title: "Experience the best Coverage  with us"
+  title: "Experience the best Coverage with us"
   image: "https://res.cloudinary.com/deqeu0xv1/image/upload/v1727785954/Screenshot_2024-10-01_180200_uq0xdm.png"
   description: ""
 
@@ -89,4 +89,6 @@ call_to_action:
     enable: true
     label: "View Info"
     link: "/contact"
+
 ---
+
