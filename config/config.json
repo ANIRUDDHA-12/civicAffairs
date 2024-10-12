@@ -2,7 +2,7 @@
   "site": {
     "title": "CivicAffairs",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
+    "favicon": "https://res.cloudinary.com/deqeu0xv1/image/upload/v1727346069/Screenshot_2024-09-26_154946_jqohtd.png",
     "logo": "https://res.cloudinary.com/deqeu0xv1/image/upload/v1727346069/Screenshot_2024-09-26_154946_jqohtd.png",
     "logo_width": "150",
     "logo_height": "30",
@@ -26,7 +26,7 @@
     "contact_form_action": "",
     "tag_manager_id": "",
     "footer_content": "Stay informed and engaged as we navigate the political landscape together.",
-    "copyright": "© 2024 Civic Affairs. All rights reserved.",
+    "copyright": "©2024 Civic Affairs, All rights reserved.",
     "disclaimer":"Disclaimer: The information provided on this website is for general informational purposes only."
   },
 
