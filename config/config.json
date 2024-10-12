@@ -2,7 +2,7 @@
   "site": {
     "title": "CivicAffairs",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
+    "favicon": "https://res.cloudinary.com/deqeu0xv1/image/upload/v1727346069/Screenshot_2024-09-26_154946_jqohtd.png",
     "logo": "https://res.cloudinary.com/deqeu0xv1/image/upload/v1727346069/Screenshot_2024-09-26_154946_jqohtd.png",
     "logo_width": "150",
     "logo_height": "30",
