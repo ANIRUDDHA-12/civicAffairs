@@ -1,7 +1,9 @@
+
 import Link from "next/link";
 import Cta from "./components/Cta";
+import Services from "./partials/Services";
 
-function Pricing({ data }) {
+function Pricing({ data,services }) {
   const {
     frontmatter: { title, plans, call_to_action },
   } = data;
@@ -10,19 +12,17 @@ function Pricing({ data }) {
       <section className="section pb-0">
         <div className="container">
           <h1 className="text-center font-normal">{title}</h1>
-          <div className="section row -mt-10 justify-center md:mt-0">
+          <div className=" flex gap-2 max-w-[100vw]  -mt-20 justify-center md:mt-0">
             {plans.map((plan, index) => (
               <div
-                className={`col-12 md:col-4 ${
-                  !plan.recommended ? "lg:px-0" : "col-recommended"
-                }`}
+                className={`w-[15vw] 
+                `}
                 key={plan.title + index}
               >
-                <div className="card text-center">
+                <div className="card text-center w-[15vw]">
                   <h4>{plan.title}</h4>
                   <div className="mt-5">
-                    <span className="text-5xl text-dark">${plan.price}</span>
-                    <span>/ {plan.type}</span>
+                    <img className="text-5xl text-dark" src={plan.image}></img>
                   </div>
                   <h5 className="mt-2 font-normal text-text">
                     {plan.subtitle}
@@ -53,5 +53,7 @@ function Pricing({ data }) {
     </>
   );
 }
+
+
 
 export default Pricing;
