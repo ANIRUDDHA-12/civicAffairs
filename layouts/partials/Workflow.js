@@ -16,7 +16,7 @@ const Workflow = ({ workflow }) => {
       <div className="w-[80vw] m-auto">
       <ImageSlider images={[
         "https://res.cloudinary.com/deqeu0xv1/image/upload/v1728753822/Screenshot_2024-10-12_225256_eqaq8c.png",
-        "https://res.cloudinary.com/deqeu0xv1/image/upload/v1728753872/Screenshot_2024-10-12_225415_e5fkwg.png"
+        "https://res.cloudinary.com/deqeu0xv1/image/upload/v1728753872/Screenshot_2024-10-12_225415_e5fkwg.png",
       ]} />
       </div>
     </section>
