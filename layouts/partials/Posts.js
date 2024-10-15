@@ -312,7 +312,7 @@ const BlogPage = () => {
     const [articles, setArticle] = useState(articlesList)
     
     useEffect(() => {
-        // fetchBlogs()
+        fetchBlogs()
     },[])
 
     const fetchBlogs = async () => { 
