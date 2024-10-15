@@ -88,7 +88,7 @@ call_to_action:
   button:
     enable: true
     label: "View Info"
-    link: "/contact"
+    link: "http://surl.li/xfmvgf"
 
 ---
 

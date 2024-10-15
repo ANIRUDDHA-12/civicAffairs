@@ -46,7 +46,7 @@ function Pricing({ data,services }) {
         </div>
       </section>
 
-      <section className="section flex px-[20%] bg-theme-white w-full h-[65vh] bg-white border-2 border-y-gray-200 bg-[#F6EDED] ">
+      <section className="section flex px-[20%]  w-full h-[65vh]  border-2 border-y-gray-200 bg-white ">
         <section className="w-[60%]">
           <h2 className="font-bold text-xl">Shiv Sena (UBT)</h2>
           <p>Shiv Sena (Uddhav Balasaheb Thackeray), led by Uddhav Thackeray, promotes Marathi pride, Hindutva, and Maharashtra's cultural and economic interests. After splitting from the BJP post-2019 elections, Uddhav formed an alliance with Congress and NCP, becoming Chief Minister..</p>
@@ -60,7 +60,7 @@ function Pricing({ data,services }) {
         </section>
       </section>
 
-      <section className="section flex px-[20%] gap-10 bg-theme-white w-full h-[65vh] bg-white border-2 border-y-gray-200 ">
+      <section className="section flex px-[20%] gap-10  w-full h-[65vh] bg-[#F6EDED] border-2 border-y-gray-200 ">
         <section className="w-[40%]">
           <img src="https://res.cloudinary.com/deqeu0xv1/image/upload/v1728820478/Screenshot_2024-10-13_172419_aznu1f.png"
             className="w-[700px] h-[250px]" />
@@ -74,7 +74,7 @@ function Pricing({ data,services }) {
         </section>
       </section>
 
-      <section className="section flex px-[20%] bg-theme-white w-full h-[68vh] bg-white border-2 border-y-gray-200 bg-[#F6EDED] ">
+      <section className="section flex px-[20%]  w-full h-[68vh]  border-2 border-y-gray-200 bg-white ">
         <section className="w-[60%]">
           <h2 className="font-bold text-xl">Indian National Congress</h2>
           <p>The Indian National Congress (INC), one of India’s oldest political parties, aims to promote secularism, social justice, and economic development. With a rich history in the freedom struggle, the Congress party seeks to represent diverse interests, focusing on empowering marginalized communities, women's rights, and sustainable development in Maharashtra.</p>
@@ -88,7 +88,7 @@ function Pricing({ data,services }) {
         </section>
       </section>
 
-      <section className="section flex px-[20%] gap-10 bg-theme-white w-full h-[65vh] bg-white border-2 border-y-gray-200 ">
+      <section className="section flex px-[20%] gap-10  w-full h-[65vh]  border-2 border-y-gray-200  bg-[#F6EDED]">
         <section className="w-[40%]">
           <img src="https://res.cloudinary.com/deqeu0xv1/image/upload/v1728821583/Screenshot_2024-10-13_174209_ohn2ik.png"
             className="w-[700px] h-[250px]" />
@@ -102,7 +102,7 @@ function Pricing({ data,services }) {
         </section>
       </section>
 
-      <section className="section flex px-[20%] bg-theme-white w-full h-[66vh] bg-white border-2 border-y-gray-200 bg-[#F6EDED] ">
+      <section className="section flex px-[20%]  w-full h-[66vh]  border-2 border-y-gray-200 bg-white ">
         <section className="w-[60%]">
           <h2 className="font-bold text-xl">Shiv Sena (Eknath Shinde)</h2>
           <p>Shiv Sena (Eknath Shinde), led by Eknath Shinde, emerged as a splinter faction of the original Shiv Sena, advocating for Hindutva while prioritizing infrastructure development and economic growth in Maharashtra. The faction gained prominence after its split from the Uddhav Thackeray-led Shiv Sena in 2022, with Shinde aligning with the Bharatiya Janata Party (BJP) to form a government, emphasizing governance and administrative efficiency.</p>
@@ -116,7 +116,7 @@ function Pricing({ data,services }) {
         </section>
       </section>
 
-      <section className="section flex px-[20%] gap-10 bg-theme-white w-full h-[65vh] bg-white border-2 border-y-gray-200 ">
+      <section className="section flex px-[20%] gap-10 bg-theme-white w-full h-[65vh]  border-2 border-y-gray-200 bg-white ">
         <section className="w-[40%]">
           <img src="https://res.cloudinary.com/deqeu0xv1/image/upload/v1728822254/Screenshot_2024-10-13_175320_ac5t8c.png"
             className="w-[700px] h-[250px]" />

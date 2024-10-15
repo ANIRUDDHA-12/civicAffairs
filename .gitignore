@@ -39,3 +39,7 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+# Clerk Api key
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_YWxsb3dlZC1wdXAtOTguY2xlcmsuYWNjb3VudHMuZGV2JA
+CLERK_SECRET_KEY=sk_test_Zk8wvfYrXAurBJCFy1avMVBR0bcsIUUFzaE0DmaM6I
